@@ -2,7 +2,7 @@ require("dotenv").config(); // Load environment variables
 
 const express = require("express");
 const cors = require("cors");
-const SampleAppRouter = require('../Projects/SampleApp/SampleAppRouter.cjs');
+const SampleAppRouter = require('../Projects/sample/SampleRouter.cjs');
 
 
 const app = express();
